@@ -4,12 +4,15 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: var(--gray);
+    color : var(--white);
 }
 
 .intro-desc-title{
     width: 300px;
     font-weight: 500;
     font-size: 20px;
+    padding-top: 20px;
 }
 
 .intro-desc{
@@ -22,6 +25,6 @@
     }
 
     .intro-desc{
-        width: 320px;
+        width: 330px;
     }
 }

@@ -1,8 +1,18 @@
 .pricecard-wrap{
-    margin: 20px 0px;
+    padding: 20px 0px 0px 0px;
+    background: linear-gradient(
+    to bottom,
+    var(--gray) 0%,
+    var(--gray) 25%,
+    var(--white) 25%,
+    var(--white) 50%,
+    var(--gray) 50%,
+    var(--gray) 100%
+    );
 }
 
 .card-wrap{
+    background-color: var(--white);
     border: 1px solid rgba(0, 0, 0, 0.075);
     border-radius: 7px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -11,12 +21,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-@media all and (max-width: 450px) {
-    .card-wrap{
-        margin: 0px 20px;
-    }
 }
 
 .card-heading{
@@ -47,7 +51,7 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .package-details-line{
@@ -63,6 +67,21 @@
 
 .card-quote{
     font-size: 40px;
-    margin: 50px 0px;
-    font-weight: 400;
+    padding: 50px 0px;
+    margin: 0px;
+    font-weight: 300;
+    color: var(--white);
 }
+
+@media all and (max-width: 450px) {
+    .card-wrap{
+        margin: 0px 25px;
+    }
+
+    .card-quote{
+        font-size: 30px;
+    }
+}
+
+
+

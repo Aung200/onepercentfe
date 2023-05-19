@@ -5,7 +5,6 @@ import { Grid } from '@mui/material';
 //css
 import './styles/pricecards.css'
 import CheckIcon from '@mui/icons-material/Check';
-import AdsClickIcon from '@mui/icons-material/AdsClick';
 
 function Pricecards() {
     return (
