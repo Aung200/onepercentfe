@@ -1,0 +1,27 @@
+.intro-wrap{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-desc-title{
+    width: 300px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.intro-desc{
+    width: 550px;
+}
+
+@media all and (max-width: 450px) {
+    .intro-desc-title{
+        font-size: 18px;
+    }
+
+    .intro-desc{
+        width: 320px;
+    }
+}

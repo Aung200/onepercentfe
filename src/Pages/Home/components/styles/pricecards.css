@@ -1,0 +1,68 @@
+.pricecard-wrap{
+    margin: 20px 0px;
+}
+
+.card-wrap{
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    border-radius: 7px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (max-width: 450px) {
+    .card-wrap{
+        margin: 0px 20px;
+    }
+}
+
+.card-heading{
+    font-size: 18px;
+    margin: 0px 0px 20px 0px;
+}
+
+.card-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    border-top: 1px solid rgba(0, 0, 0, 0.178);
+    padding-top: 20px;
+    line-height: 38px;
+    width: 90%;
+}
+
+.card-price-type{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.card-package-details-wrap{
+    padding: 20px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
+
+.package-details-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.package-details-line i{
+    margin-right: 5px;
+}
+
+.card-quote{
+    font-size: 40px;
+    margin: 50px 0px;
+    font-weight: 400;
+}
