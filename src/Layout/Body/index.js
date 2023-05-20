@@ -14,9 +14,10 @@ function Body(props) {
                 <div>Please wait while we are isLoading the page</div>
             }>
                 <Header />
-                <Routes>
+                <Home />
+                {/* <Routes>
                     <Route exact path="/*" element={<Home />} />
-                </Routes>
+                </Routes> */}
                 <Footer />
             </Suspense>
         </Fragment>
