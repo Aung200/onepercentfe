@@ -56,7 +56,7 @@ function Pricecards() {
                     <Grid item xs={12} md={3} className='card-wrap fourth-hidden'>
                         <h5 className='card-heading'>Additional (Focus Programme)</h5>
                         <div className='card-price'>
-                            <div style={{ fontSize: '25px', marginRight: '5px' }}>$ </div>500
+                            <div style={{ fontSize: '25px', marginRight: '5px' }}>$ </div>500*
                         </div>
                         <div className='card-price-type' style={{ fontSize: '16px', fontWeight: 'bold' }}>/package</div>
                         <div className='card-package-details-wrap'>
@@ -64,6 +64,7 @@ function Pricecards() {
                             <div className='package-details-line'><i><CheckIcon /></i> 8 Weeks Plan</div>
                             <div className='package-details-line'><i><CheckIcon /></i> Personalosed Wrokout</div>
                             <div className='package-details-line'><i><CheckIcon /></i> WhatsApp Support</div>
+                            <div className='package-details-line' style={{fontSize:'14px'}}> * T&C Applies</div>
                         </div>
                     </Grid>
                     <Grid item xs={12} md={6} className='card-wrap fourth-wrap fourth-hidden2'>
@@ -72,7 +73,7 @@ function Pricecards() {
                             <div className='card-price fourth-price'>
                                 <div className='price-group'>
                                     <div style={{ fontSize: '25px', marginRight: '5px' }}>$</div>
-                                    <div>500</div>
+                                    <div>500*</div>
                                 </div>
                                 <div className='card-price-type fourth-type' style={{ fontSize: '16px', fontWeight: 'bold' }}>/package</div>
                             </div>
@@ -82,6 +83,7 @@ function Pricecards() {
                             <div className='package-details-line'><i><CheckIcon /></i> 8 Weeks Plan</div>
                             <div className='package-details-line'><i><CheckIcon /></i> Personalosed Wrokout</div>
                             <div className='package-details-line'><i><CheckIcon /></i> WhatsApp Support</div>
+                            <div className='package-details-line' style={{fontSize:'14px'}}> * T&C Applies</div>
                             </div>
                         </div>
                     </Grid>
