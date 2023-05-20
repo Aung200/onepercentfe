@@ -15,9 +15,9 @@ function Body(props) {
             }>
                 <Header />
                 <Home />
-                {/* <Routes>
-                    <Route exact path="/*" element={<Home />} />
-                </Routes> */}
+                <Routes>
+                    <Route exact path="/onepercentfe" element={<Home />} />
+                </Routes>
                 <Footer />
             </Suspense>
         </Fragment>
