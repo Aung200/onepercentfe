@@ -17,10 +17,8 @@
     border-radius: 7px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     justify-content: center;
-    align-items: center;
 }
 
 .card-heading{
@@ -28,7 +26,6 @@
     padding: 0px 0px 20px 0px;
     margin: 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.178);
-    width: 90%;
 }
 
 .fourth-session-wrap{
@@ -44,7 +41,6 @@
     font-weight: bold;
     padding-top: 20px;
     line-height: 38px;
-    width: 90%;
 }
 
 .fourth-price{
@@ -61,7 +57,6 @@
 .card-price-type{
     border-bottom: 1px solid rgba(0, 0, 0, 0.178);
     padding-bottom: 20px;
-    width: 90%;
 }
 
 .fourth-type{
@@ -70,10 +65,10 @@
 }
 
 .card-package-details-wrap{
-    padding: 20px 0px 15px 0px;
+    padding: 20px 10px 15px 10px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: flex-start;
 }
 
@@ -102,9 +97,12 @@
 
 @media all and (max-width: 450px) {
     .card-wrap{
-        margin: 0px 25px;
+        margin: 0px 25px!important;
     }
 
+    .card-package-details-wrap{
+        padding: 20px 40px 15px 40px;
+    }
     .card-quote{
         font-size: 30px;
     }
