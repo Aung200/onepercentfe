@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 //components
 import { Grid } from '@mui/material';
 //css
-import './styles/pricecards.css/'
+import '../components/styles/pricecards.css'
 import CheckIcon from '@mui/icons-material/Check';
 
 function Pricecards() {
