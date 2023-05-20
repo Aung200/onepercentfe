@@ -62,7 +62,7 @@ function Pricecards() {
                         <div className='card-package-details-wrap'>
                             <div className='package-details-line'><i><CheckIcon /></i> One to One PT/Week</div>
                             <div className='package-details-line'><i><CheckIcon /></i> 8 Weeks Plan</div>
-                            <div className='package-details-line'><i><CheckIcon /></i> Personalosed Wrokout</div>
+                            <div className='package-details-line'><i><CheckIcon /></i> Personalised Wrokout</div>
                             <div className='package-details-line'><i><CheckIcon /></i> WhatsApp Support</div>
                             <div className='package-details-line' style={{fontSize:'14px'}}> * T&C Applies</div>
                         </div>
@@ -81,7 +81,7 @@ function Pricecards() {
                             <div className='card-package-details-wrap fourth-details-wrap'>
                             <div className='package-details-line'><i><CheckIcon /></i> One to One PT/Week</div>
                             <div className='package-details-line'><i><CheckIcon /></i> 8 Weeks Plan</div>
-                            <div className='package-details-line'><i><CheckIcon /></i> Personalosed Wrokout</div>
+                            <div className='package-details-line'><i><CheckIcon /></i> Personalised Wrokout</div>
                             <div className='package-details-line'><i><CheckIcon /></i> WhatsApp Support</div>
                             <div className='package-details-line' style={{fontSize:'14px'}}> * T&C Applies</div>
                             </div>
