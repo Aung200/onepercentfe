@@ -14,7 +14,6 @@ function Body(props) {
                 <div>Please wait while we are isLoading the page</div>
             }>
                 <Header />
-                <Home />
                 <Routes>
                     <Route exact path="/onepercentfe" element={<Home />} />
                 </Routes>
