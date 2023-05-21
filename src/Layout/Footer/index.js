@@ -8,20 +8,18 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 function index() {
 
-  const text = "Hi! Would like to ask more about workout plans."
-
   return (
     <Fragment>
       <div className='footer-wrap'>
         <div className='icon-group-wrap'>
           <a className='icon-wrap' href='https://instagram.com/onepercent_sg?igshid=MzRlODBiNWFlZA==' target='blank'>
             <InstagramIcon style={{ paddingRight: '5px' }} />onepercent_sg</a>
-          <a className='icon-wrap' href={`https://wa.me/84586090/?text=${text}`} target='blank'>
+          <p className='icon-wrap'>
             <WhatsAppIcon style={{ paddingRight: '5px' }} />+65 8458 6090
-          </a>
-          <a className='icon-wrap' href='mailto:aung.m.m.phyo@gmail.com' target=''>
+          </p>
+          <p className='icon-wrap'>
             <MailOutlineIcon style={{ paddingRight: '5px' }} />clients.onepercentsg@gmail.com
-          </a>
+          </p>
         </div>
       </div>
     </Fragment>
