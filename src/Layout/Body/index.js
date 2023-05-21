@@ -15,7 +15,7 @@ function Body(props) {
             }>
                 <Header />
                 <Routes>
-                    <Route exact path="/onepercentfe" element={<Home />} />
+                    <Route exact path="/*" element={<Home />} />
                 </Routes>
                 <Footer />
             </Suspense>
