@@ -21,6 +21,7 @@ function index() {
             <MailOutlineIcon style={{ paddingRight: '5px' }} />clients.onepercentsg@gmail.com
           </p>
         </div>
+        <p>© OnePercentSG | All Rights Reserved</p>
       </div>
     </Fragment>
   )

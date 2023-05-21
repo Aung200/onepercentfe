@@ -5,7 +5,7 @@ import React, { Fragment } from 'react'
 import './styles/floatingwhatsapp.css'
 
 function FloatingWhatsapp() {
-    const text = "Hi! Would like to ask more about workout plans."
+    const text = "Hi! Would like to ask more about programs."
   return (
     <Fragment>
         <a className="whatsapp" href={`https://wa.me/84586090/?text=${text}`} target="blank">
