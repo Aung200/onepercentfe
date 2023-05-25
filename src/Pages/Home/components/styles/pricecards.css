@@ -95,7 +95,7 @@
     color: var(--white);
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 720px) {
     .card-wrap{
         margin: 0px 25px!important;
     }
