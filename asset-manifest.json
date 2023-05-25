@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ced572f9.css",
-    "main.js": "/static/js/main.e3800882.js",
-    "static/css/781.bd1cdf43.chunk.css": "/static/css/781.bd1cdf43.chunk.css",
-    "static/js/781.601ed322.chunk.js": "/static/js/781.601ed322.chunk.js",
-    "static/media/brandlogo.PNG": "/static/media/brandlogo.73154a45d5ee84a86f49.PNG",
+    "main.css": "/static/css/main.326b6a76.css",
+    "main.js": "/static/js/main.246f12b1.js",
+    "static/css/42.292adc1e.chunk.css": "/static/css/42.292adc1e.chunk.css",
+    "static/js/42.dd028414.chunk.js": "/static/js/42.dd028414.chunk.js",
+    "static/media/onepercentlogo.jpg": "/static/media/onepercentlogo.56a701b10444eb4d9ab1.jpg",
     "index.html": "/index.html",
-    "main.ced572f9.css.map": "/static/css/main.ced572f9.css.map",
-    "main.e3800882.js.map": "/static/js/main.e3800882.js.map",
-    "781.bd1cdf43.chunk.css.map": "/static/css/781.bd1cdf43.chunk.css.map",
-    "781.601ed322.chunk.js.map": "/static/js/781.601ed322.chunk.js.map"
+    "main.326b6a76.css.map": "/static/css/main.326b6a76.css.map",
+    "main.246f12b1.js.map": "/static/js/main.246f12b1.js.map",
+    "42.292adc1e.chunk.css.map": "/static/css/42.292adc1e.chunk.css.map",
+    "42.dd028414.chunk.js.map": "/static/js/42.dd028414.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ced572f9.css",
-    "static/js/main.e3800882.js"
+    "static/css/main.326b6a76.css",
+    "static/js/main.246f12b1.js"
   ]
 }
