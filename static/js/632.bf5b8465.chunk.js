@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkonepercentfe=self.webpackChunkonepercentfe||[]).push([[632],{5632:function(e,n,r){r.r(n),r.d(n,{default:function(){return i}});var t=r(2791),c=r(7689),s=r(184);var u=function(){return(0,s.jsx)("div",{children:"This is program page"})};var i=function(e){return(0,s.jsx)(t.Fragment,{children:(0,s.jsx)(c.Z5,{children:(0,s.jsx)(c.AW,{path:"/*",element:(0,s.jsx)(u,{})})})})}}}]);
+//# sourceMappingURL=632.bf5b8465.chunk.js.map
