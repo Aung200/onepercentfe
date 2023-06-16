@@ -10,7 +10,7 @@ function index(props) {
   return (
     <Fragment>
         <Routes>
-          <Route path="/" element={<Program />} />
+          <Route path="/*" element={<Program />} />
         </Routes>
     </Fragment>
   )
