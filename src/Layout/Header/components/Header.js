@@ -8,7 +8,7 @@ import LOGO from '../../../Assets/Images/onepercentlogo.jpg'
 function Header() {
     return (
         <header className='header-wrap'>
-            <a href='/home'><img className='brand-img' src={LOGO} alt='brand' /></a>
+            <a href='/'><img className='brand-img' src={LOGO} alt='brand' /></a>
             <p className='brand-description'>ONE PERCENT BETTER EVERYDAY</p>
         </header>
     )
