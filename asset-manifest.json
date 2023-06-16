@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.326b6a76.css",
-    "main.js": "/static/js/main.d20969f8.js",
+    "main.js": "/static/js/main.95c7d012.js",
     "static/css/42.292adc1e.chunk.css": "/static/css/42.292adc1e.chunk.css",
     "static/js/42.dd028414.chunk.js": "/static/js/42.dd028414.chunk.js",
     "static/js/632.bc03b041.chunk.js": "/static/js/632.bc03b041.chunk.js",
     "static/media/onepercentlogo.jpg": "/static/media/onepercentlogo.56a701b10444eb4d9ab1.jpg",
     "index.html": "/index.html",
     "main.326b6a76.css.map": "/static/css/main.326b6a76.css.map",
-    "main.d20969f8.js.map": "/static/js/main.d20969f8.js.map",
+    "main.95c7d012.js.map": "/static/js/main.95c7d012.js.map",
     "42.292adc1e.chunk.css.map": "/static/css/42.292adc1e.chunk.css.map",
     "42.dd028414.chunk.js.map": "/static/js/42.dd028414.chunk.js.map",
     "632.bc03b041.chunk.js.map": "/static/js/632.bc03b041.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.326b6a76.css",
-    "static/js/main.d20969f8.js"
+    "static/js/main.95c7d012.js"
   ]
 }
