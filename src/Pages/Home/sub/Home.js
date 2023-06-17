@@ -2,7 +2,6 @@
 import React, { Fragment } from 'react'
 //components
 import Intro from '../components/Intro'
-import FloatingWhatsapp from '../../../Custom/FloatingWhatsapp'
 //css
 import '../components/styles/index.css'
 import Pricecards from '../components/Pricecards'
