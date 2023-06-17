@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+//components
+import ProgramIntro from '../components/ProgramIntro'
+import Packages from '../components/Packages'
+//css
+import '../components/styles/index.css'
+
 
 function Program() {
   return (
-    <div>This is program page</div>
+    <Fragment>
+      <div className='program-wrap'>
+        <ProgramIntro/>
+        <Packages/>
+      </div>
+    </Fragment>
   )
 }
 

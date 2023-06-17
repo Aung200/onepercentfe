@@ -2,7 +2,7 @@
 import React, { Fragment } from 'react'
 //components
 //css
-import './styles/floatingwhatsapp.css'
+import './floatingwhatsapp.css'
 
 function FloatingWhatsapp() {
     const text = "Hi! Would like to ask more about programs."

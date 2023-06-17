@@ -1,30 +1,45 @@
-.intro-wrap{
+.intro-wrap {
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: var(--gray);
-    color : var(--white);
+    color: var(--white);
+    width: 100%;
 }
 
-.intro-desc-title{
+.intro-desc-title,
+.consult-title {
     width: 300px;
     font-weight: 500;
     font-size: 20px;
     padding-top: 20px;
 }
 
-.intro-desc{
+.consult-title {
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.intro-desc,
+.consult-desc {
     width: 550px;
 }
 
+.consult-desc {
+    font-style: italic;
+}
+
 @media all and (max-width: 450px) {
-    .intro-desc-title{
+
+    .intro-desc-title,
+    .consult-title {
         font-size: 18px;
     }
 
-    .intro-desc{
+    .intro-desc,
+    .consult-desc {
         width: 330px;
     }
 }

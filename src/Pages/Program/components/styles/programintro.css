@@ -1,0 +1,27 @@
+.programIntro-wrap{
+    padding: 0px;
+    text-align: center;
+}
+
+.program-IPPT{
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 30px 17px;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.program-about-title{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px;
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+.program-about{
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 0px 20px 20px 20px;
+    font-size: 16px;
+}

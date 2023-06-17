@@ -10,17 +10,14 @@ import LOGO from '../../../Assets/Images/onepercentlogo.jpg'
 function Header() {
     return (
         <header className='header-wrap'>
-            {/* <a href='/'><img className='brand-img' src={LOGO} alt='brand' /></a>
-            <p className='brand-description'>ONE PERCENT BETTER EVERYDAY</p> */}
-            <Navbar collapseOnSelect expand="lg">
+            <Navbar collapseOnSelect expand="lg" style={{ padding: '0px' }} >
                 <Container>
-                    <Navbar.Brand href="/"><img className='brand-img' src={LOGO} alt='brand'/></Navbar.Brand>
+                <Navbar.Brand href="/" className='uncollapse-brand'><img className='brand-img' src={LOGO} alt='brand' /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
+                        <Nav style={{ justifyContent: 'flex-end' }}>
                             <Link className="nav-link" to="/program">Program</Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
-                            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                            {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">
                                     Another action
@@ -30,17 +27,18 @@ function Header() {
                                 <NavDropdown.Item href="#action/3.4">
                                     Separated link
                                 </NavDropdown.Item>
-                            </NavDropdown>
+                            </NavDropdown> */}
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#deets">More deets</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes">
-                                Dank memes
-                            </Nav.Link>
+                            <Navbar.Brand href="/"><img className='brand-img' src={LOGO} alt='brand' /></Navbar.Brand>
+                        </Nav>
+                        <Nav style={{ justifyContent: 'flex-start' }}>
+                            <Link className="nav-link" to="/contact">Contact Us</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            <p className='brand-description'>ONE PERCENT BETTER EVERYDAY</p>
         </header>
     )
 }

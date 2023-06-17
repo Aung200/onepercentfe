@@ -7,16 +7,17 @@ import './styles/intro.css'
 
 function Intro() {
   return (
+
     <Fragment>
-        <div className='intro-wrap'>
-            <p className='intro-desc-title'>ACCELERATE YOUR RESULTS WITH PERSONAL COACHING!</p>
-            <p className='intro-desc'>
-              Meeting up regularly with your personal trainer will allow you to learn new 
-              exercises and techniques faster and assess your current levels of fitness, movement pattern and 
-              limitations more effeciently and prescribe a plan that will suit your fitness goals.
-            </p>
-        </div>
-    </Fragment>
+      <div className='intro-wrap'>
+        <p className='intro-desc-title'>About:</p>
+        <p className='intro-desc'>
+          We help individuals who lack confidence & motivation accomplish their fitness goals & lead a healthy lifestyle through personal coaching.
+        </p>
+        <a className='consult-title' href={`https://wa.me/84586090/?text=${"Hi, I would like to book a consultation."}`} target="blank">Book a consultation with us</a>
+        <p className='consult-desc'>We would have one of us to book you a call and see whether we are best fit to work with you.</p>
+      </div >
+    </Fragment >
   )
 }
 

@@ -16,32 +16,30 @@ function Pricecards() {
                         justifyContent="center"
                         alignItems="center">
                         <Grid item xs={12} md={3} className='card-wrap' >
-                            <h5 className='card-heading'>Single Session</h5>
-                            <div className='card-price'>
-                                <div style={{ fontSize: '25px', marginRight: '5px' }}>$ </div>80
+                            <h5 className='card-heading'>1:1 Personal Training</h5>
+                            <div className='card-package-details-wrap firstCard'>
+                                <div style={{fontSize:'18px'}}>10 Sessions <strong style={{paddingLeft:'60px'}}>$800</strong></div>
+                                <div style={{fontSize:'18px'}}>20 Sessions <strong style={{paddingLeft:'50px'}}>$1,500</strong></div>
+                                <div style={{fontSize:'18px'}}>30 Sessions <strong style={{paddingLeft:'50px'}}>$2,100</strong></div>
+                                
                             </div>
-                            <div className='card-price-type' style={{ fontSize: '16px', fontWeight: 'bold' }}>/Session</div>
-                            <div className='card-package-details-wrap'>
-                                <div className='package-details-line'><i><CheckIcon /></i> One to One Consultation</div>
-                                <div className='package-details-line'><i><CheckIcon /></i> One to One PT</div>
-                                <div className='package-details-line'><i><CheckIcon /></i> Personalised Workout</div>
-                                <div className='package-details-line'><i><CheckIcon /></i> Body Assessment</div>
-                            </div>
+                            <div style={{marginTop:'10px', fontSize:'12px', fontStyle:"italic"}}>*Full Payment Upfront</div>
                         </Grid>
                         <Grid item xs={12} md={3} className='card-wrap'>
-                            <h5 className='card-heading'>Focus Programme</h5>
+                            <h5 className='card-heading'>Online program</h5>
                             <div className='card-price'>
-                                <div style={{ fontSize: '25px', marginRight: '5px' }}>$ </div>280
+                                <div style={{ fontSize: '25px', marginRight: '5px' }}>$ </div>600
                             </div>
-                            <div className='card-price-type' style={{ fontSize: '16px', fontWeight: 'bold' }}>/package</div>
+                            <div className='card-price-type' style={{ fontSize: '16px', fontWeight: 'bold' }}>/month</div>
                             <div className='card-package-details-wrap'>
-                                <div className='package-details-line'><i><CheckIcon /></i> One to One Consultation</div>
-                                <div className='package-details-line'><i><CheckIcon /></i> 8 Weeks Plan</div>
-                                <div className='package-details-line'><i><CheckIcon /></i> Personalised Workout</div>
+                                <div className='package-details-line'><i><CheckIcon /></i><div>Workout Programs</div></div>
+                                <div className='package-details-line'><i><CheckIcon /></i> Community Support</div>
                                 <div className='package-details-line'><i><CheckIcon /></i> WhatsApp Support</div>
                             </div>
+                            <div style={{marginTop:'10px', fontSize:'12px', fontStyle:"italic"}}>*More details will be shared during consultation.</div>
+                            <div style={{marginTop:'10px',fontSize:'12px', fontStyle:"italic"}}>*Add full support & customisation option for an additional <strong>$169</strong> per month.</div>
                         </Grid>
-                        <Grid item xs={12} md={3} className='card-wrap'>
+                        {/* <Grid item xs={12} md={3} className='card-wrap'>
                             <h5 className='card-heading'>Meal Programme</h5>
                             <div className='card-price'>
                                 <div style={{ fontSize: '25px', marginRight: '5px' }}>$ </div>150
@@ -87,10 +85,10 @@ function Pricecards() {
                                     <div className='package-details-line' style={{ fontSize: '14px' }}> * T&C Applies</div>
                                 </div>
                             </div>
-                        </Grid>
+                        </Grid> */}
                     </Grid>
                 </Container>
-                <h1 className='card-quote'>YOUR GOAL IS MY GOAL !</h1>
+                {/* <h1 className='card-quote'>YOUR GOAL IS MY GOAL !</h1> */}
             </div>
         </Fragment>
     )

@@ -1,0 +1,18 @@
+.contact-wrap{
+    text-align: center;
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 40px 17px;
+}
+
+.contact-title{
+    font-size: 30px;
+}
+
+.contact-details-wrap{
+    padding: 20px 0px 0px 0px;
+}
+
+.contact-icon-wrap{
+    margin-bottom: 5px;
+}

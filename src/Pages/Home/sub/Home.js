@@ -2,10 +2,11 @@
 import React, { Fragment } from 'react'
 //components
 import Intro from '../components/Intro'
-import FloatingWhatsapp from '../components/FloatingWhatsapp'
+import FloatingWhatsapp from '../../../Custom/FloatingWhatsapp'
 //css
 import '../components/styles/index.css'
 import Pricecards from '../components/Pricecards'
+import Testimonial from '../components/Testimonial'
 
 function Home() {
   return (
@@ -13,7 +14,7 @@ function Home() {
       <div className='home-wrap'>
         <Intro/>
         <Pricecards/>
-        <FloatingWhatsapp/>
+        <Testimonial/>
       </div>
     </Fragment>
   )
