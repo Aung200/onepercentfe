@@ -2,10 +2,9 @@
     margin: 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.178);
     text-align: center;
-    padding: 0px;
-    position: sticky;
-    top: 0px;
-    background-color: var(--white);
+    padding: 0px!important;
+    background-color: var(--white)!important;
+    flex-direction: column!important;
 }
 
 .uncollapse-brand{

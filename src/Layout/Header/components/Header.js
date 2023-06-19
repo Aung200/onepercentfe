@@ -9,14 +9,13 @@ import LOGO from '../../../Assets/Images/onepercentlogo.jpg'
 
 function Header() {
     return (
-        <header className='header-wrap'>
-            <Navbar collapseOnSelect expand="lg" style={{ padding: '0px' }} >
+            <Navbar collapseOnSelect expand="lg" className='header-wrap' sticky='top'>
                 <Container>
                 <Navbar.Brand href="/" className='uncollapse-brand'><img className='brand-img' src={LOGO} alt='brand' /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav style={{ justifyContent: 'flex-end' }}>
-                            <Link className="nav-link" to="/program">Program</Link>
+                            <Link className="nav-link" to="/program">Gold Achiever Program</Link>
                             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">
@@ -37,9 +36,8 @@ function Header() {
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
+                <p className='brand-description'>ONE PERCENT BETTER EVERYDAY</p>
             </Navbar>
-            <p className='brand-description'>ONE PERCENT BETTER EVERYDAY</p>
-        </header>
     )
 }
 
