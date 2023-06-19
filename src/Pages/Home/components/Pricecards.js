@@ -19,8 +19,8 @@ function Pricecards() {
                             <h5 className='card-heading'>1:1 Personal Training</h5>
                             <div className='card-package-details-wrap firstCard'>
                                 <div style={{width: '100%',fontSize:'18px',display: 'flex', justifyContent:'space-between'}}><div>10 Sessions</div><div style={{fontWeight:'bold'}}>$800</div></div>
-                                <div style={{width: '100%',fontSize:'18px',display: 'flex', justifyContent:'space-between'}}><div>20 Sessions</div><div style={{fontWeight:'bold'}}>$1500</div></div>   
-                                <div style={{width: '100%',fontSize:'18px',display: 'flex', justifyContent:'space-between'}}><div>30 Sessions</div><div style={{fontWeight:'bold'}}>$2100</div></div>      
+                                <div style={{width: '100%',fontSize:'18px',display: 'flex', justifyContent:'space-between'}}><div>20 Sessions</div><div style={{fontWeight:'bold'}}>$1,500</div></div>   
+                                <div style={{width: '100%',fontSize:'18px',display: 'flex', justifyContent:'space-between'}}><div>30 Sessions</div><div style={{fontWeight:'bold'}}>$2,100</div></div>      
                             </div>
                             <div style={{marginTop:'10px', fontSize:'12px', fontStyle:"italic"}}>*Full Payment Upfront</div>
                         </Grid>
